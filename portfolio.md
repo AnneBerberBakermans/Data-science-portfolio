@@ -1,19 +1,39 @@
+• Collect, store, and access data by identifying and leveraging applicable technologies
+• Create actionable insight across a range of contexts (e.g. societal, business, political),
+using data and the full data science life cycle
+• Apply visualization and predictive models to help generate actionable insight
+• Use programming languages such as Rand Python to support the generation of
+actionable insight
+• Communicate insights gained via visualization and analytics to a broad range of
+audiences (including project sponsors and technical team leads
+• Apply ethics in the development, use and evaluation of data and predictive models (e.g.,
+fairness, bias, transparency, privacy)
+
+
+
+Collect, store, and access data by identifying and leveraging applicable technologies
+
 Using Tools to Collect and Organize Data: Citi Bike and Weather Analysis
+For our final project in IST 652: Scripting for Data Analytics, we analyzed Citi Bike rentals in New York City to find patterns in how people use the bike-sharing system. We focused on July, August, and September because these months had the highest number of rides. Since the data for each month was stored in a separate file, we had to gather, clean, and combine them before we could start analyzing. Each month had around 4–5 million rows, so organizing the data properly was very important to avoid issues when working with such large files.
 
-For our final project in IST 652: Scripting for Data Analytics, we worked with the Citi Bike dataset, which tracks bike rentals in New York City. Our goal was to find patterns in bike usage and understand what factors affect ridership. We focused on July, August, and September because these months had the most rides. Since the data for each month was in separate files, we had to gather, clean, and combine them before analyzing. Each month’s data had around 4–5 million rows, so organizing it properly was very important.
+To make our analysis more useful, we also included weather data. At first, we merged weather data with all three months, but later, we decided to focus only on September because that month had the most rides. To compare the two datasets, we added an hour column to the Citi Bike data so we could match each ride with weather conditions at that time. This helped us see how factors like temperature, humidity, and wind speed affected ridership. Our goal was to provide useful insights that could help improve the Citi Bike system in New York City.
 
-To make our analysis more detailed, we also used weather data. At first, we merged weather data with all three months, but later we decided to focus only on September since it had the highest number of rides. To compare the two datasets, we added an hour column to the Citi Bike data so that it could match with the hourly weather data. This helped us see how weather conditions affected bike usage. Our goal was to provide useful insights that could help New York City improve its bike-sharing system.
-How We Collected and Organized the Data
+Collecting and Organizing the Data
+Since we were working with large datasets, we needed to use different tools and techniques to make the process more manageable. First, we downloaded the Citi Bike data from the official website and cleaned it by:
 
-Since we were working with large amounts of data, we used different tools and techniques to make the process easier. We first downloaded the Citi Bike data from the official website for the months we wanted to analyze. Then, we cleaned the data by fixing dates and times, removing missing values, trimming column names, converting coordinates to numbers, and deleting duplicate entries. We also removed any negative trip durations, as they were errors in the data.
-For the weather data, we removed columns that we didn’t need and kept only important details like temperature, humidity, and wind speed. To make analysis easier, we added week and week-of-the-month information and calculated daily weather averages. We then merged the cleaned bike and weather data by matching the hour and week, creating a well-organized dataset that connected Citi Bike trips with weather conditions.
+Fixing date and time formats to make sure they were consistent
+Removing missing values and duplicate entries to avoid errors
+Standardizing column names so they were easier to work with
+Converting coordinates into numerical values
+Filtering out negative trip durations, which were mistakes in the data
+For the weather data, we removed unnecessary columns and kept only useful details like temperature, humidity, and wind speed. We also added extra information, such as the week number and the week-of-the-month, to help with the analysis. Finally, we merged the Citi Bike and weather datasets by matching the time and date, creating a well-structured dataset that linked bike trips with weather conditions.
 
-Why is this important?
-This project showed how important it is to use tools to collect and organize data before you start it. When we first started this project, our laptops both would freeze quite a lot as we were working with such big data. If you are not using the right tools large datasets can become very overwelming. we used panda for data processing and datetime functions to organize time-based data. This helped us turn the data into clear and usefull insights. It helped us to show and understand how factors like weather and time of the day can effect the bike usage of Citibike in New York.
+Why This Matters
+This project showed us how important it is to collect and organize data before starting an analysis. When we first began working with the files, our laptops kept freezing because of how large the datasets were. Without the right tools, working with big data can become overwhelming and frustrating.
 
+We used Pandas for data processing and Datetime functions to organize time-based information. These tools helped us turn raw data into clear and useful insights. By the end of our project, we were able to see how weather and time of day impacted Citi Bike usage. This kind of analysis can help city planners and Citi Bike managers make better decisions about bike availability, station locations, and service improvements.
 
-
-
-
+Create actionable insight across a range of contexts (e.g. societal, business, political),
+using data and the full data science life cycle
 
 
