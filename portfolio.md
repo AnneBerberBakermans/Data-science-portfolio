@@ -7,3 +7,13 @@ How We Collected and Organized the Data
 
 Since we were working with large amounts of data, we used different tools and techniques to make the process easier. We first downloaded the Citi Bike data from the official website for the months we wanted to analyze. Then, we cleaned the data by fixing dates and times, removing missing values, trimming column names, converting coordinates to numbers, and deleting duplicate entries. We also removed any negative trip durations, as they were errors in the data.
 For the weather data, we removed columns that we didn’t need and kept only important details like temperature, humidity, and wind speed. To make analysis easier, we added week and week-of-the-month information and calculated daily weather averages. We then merged the cleaned bike and weather data by matching the hour and week, creating a well-organized dataset that connected Citi Bike trips with weather conditions.
+
+Why is this important?
+This project showed how important it is to use tools to collect and organize data before you start it. When we first started this project, our laptops both would freeze quite a lot as we were working with such big data. If you are not using the right tools large datasets can become very overwelming. we used panda for data processing and datetime functions to organize time-based data. This helped us turn the data into clear and usefull insights. It helped us to show and understand how factors like weather and time of the day can effect the bike usage of Citibike in New York.
+
+
+
+
+
+
+
