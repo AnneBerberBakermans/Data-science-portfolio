@@ -37,3 +37,25 @@ Create actionable insight across a range of contexts (e.g. societal, business, p
 using data and the full data science life cycle
 
 
+
+• Create actionable insight across a range of contexts (e.g. societal, business, political),
+using data and the full data science life cycle
+
+Using Data Science to Understand Income Patterns and Bias
+One of the classes that really focused on gaining insights across different contexts was Responsible AI (IST644). In one of our first assignments, we worked with the Adult Income dataset from the UCI Machine Learning Repository. This dataset looks at whether a person earns more than $50K per year, based on factors like education, occupation, and marital status. Since income prediction relies on demographic information, it raises important questions about fairness and bias in AI models.
+
+This assignment showed how data science can be used to create actionable insights in different areas—society, business, and policy. In a societal context, it highlighted how AI can reinforce inequalities if models aren’t carefully built. In a business setting, understanding income trends could help companies improve hiring policies. From a political perspective, it raised questions about wage gaps and economic mobility.
+
+Analyzing the Data to Find Key Patterns
+We started with Exploratory Data Analysis (EDA) to understand the dataset and uncover patterns in income levels. We looked at key factors such as:
+
+Age – Are older individuals more likely to earn above $50K?
+Hours worked per week – Does working more actually lead to higher income?
+Education level (education_num) – How does education impact earning potential?
+After exploring the data, we built a logistic regression model to predict whether someone earns more than $50K per year. This model helped us see which factors had the strongest influence on income.
+
+Why This Was Important
+This assignment really showed how data science can be applied to different areas. In business, companies use similar models for salary predictions or workforce planning. Governments might analyze this kind of data when making policies about wages and education. On a societal level, it showed how AI can either help reduce bias or unintentionally reinforce existing inequalities.
+
+The biggest takeaway was that data science isn’t just about making predictions.It’s about making fair and meaningful decisions. This assignment made it clear that when working with real-world data, we have to think about how our models impact people and ensure that our insights are responsible and useful across different contexts.
+
