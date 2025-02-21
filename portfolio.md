@@ -59,3 +59,27 @@ This assignment really showed how data science can be applied to different areas
 
 The biggest takeaway was that data science isn’t just about making predictions.It’s about making fair and meaningful decisions. This assignment made it clear that when working with real-world data, we have to think about how our models impact people and ensure that our insights are responsible and useful across different contexts.
 
+• Apply visualization and predictive models to help generate actionable insight
+
+Using Visuals and Models to Understand Food Insecurity
+For our Introduction to Data Science class, I worked on a homework assignment analyzing food scarcity data. Some communities in the U.S. struggle to get healthy and affordable food because they live far from supermarkets or grocery stores. This limited access can make it difficult for people to maintain a balanced diet. There are many ways to measure food store access and define areas that lack these resources. In our assignment, we focused on one specific measure—how far people had to travel to reach a supermarket.
+
+The dataset included a variable called LAPOP1_10, which represented the number of people in each U.S. county who lived more than 1 mile away (for urban areas) or more than 10 miles away (for rural areas) from a supermarket. This measure helped identify populations at risk of food insecurity.
+
+Before analyzing the data, I needed to clean it. This involved converting values into numeric form and removing missing data (NA values). Once the data was cleaned, I performed exploratory data analysis (EDA) to better understand the dataset. For example, I found out which county had the smallest population.
+
+I then created a new variable called insecurityRatio, which we calculated by dividing LAPOP1_10 by Pop2010 (the total county population). This ratio showed the percentage of people in each county who lived too far from a supermarket and were therefore at risk of food insecurity. By creating this ratio, I made it easier to compare food insecurity across different counties.
+
+Merging Data & Making Graphs
+To combine multiple datasets, I needed a common column to merge them properly. The dfIns dataset contained a column called Largest_city, while the pop dataset had a city column. However, city names alone were not unique, as different states could have cities with the same name. To solve this, I created a new column called city_state by combining the city and state names. This allowed us to accurately merge the two datasets.
+
+Once the data was merged, I used different types of graphs to visualize food insecurity across the U.S.:
+
+A map of the U.S. with points representing each city, where color indicated the insecurity ratio.
+A bar chart comparing the food insecurity ratio by state.
+A scatter plot showing state populations.
+A heat map where each state’s color represented its level of food insecurity.
+
+Key Takeaways
+The biggest takeaway from this homework was how useful visualizations can be for understanding data. Simply looking at numbers in a table can make it hard to see patterns, but graphs and maps help make the information clearer. For example, My ggplot visualizations helped show which areas had the highest food insecurity, making the data more meaningful. This assignment showed how important data visualization is in turning raw data into useful insights.
+
