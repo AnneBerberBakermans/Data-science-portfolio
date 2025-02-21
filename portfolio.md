@@ -36,6 +36,8 @@ We used Pandas for data processing and Datetime functions to organize time-based
 Create actionable insight across a range of contexts (e.g. societal, business, political),
 using data and the full data science life cycle
 
+See document 1-code.ipynb
+
 # 2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle
 
 Using Data Science to Understand Income Patterns and Bias
@@ -55,6 +57,8 @@ Why This Was Important
 This assignment really showed how data science can be applied to different areas. In business, companies use similar models for salary predictions or workforce planning. Governments might analyze this kind of data when making policies about wages and education. On a societal level, it showed how AI can either help reduce bias or unintentionally reinforce existing inequalities.
 
 The biggest takeaway was that data science isn’t just about making predictions.It’s about making fair and meaningful decisions. This assignment made it clear that when working with real-world data, we have to think about how our models impact people and ensure that our insights are responsible and useful across different contexts.
+
+See document 2-code.ipynb
 
 # 3.Apply visualization and predictive models to help generate actionable insight
 
@@ -79,6 +83,8 @@ A heat map where each state’s color represented its level of food insecurity.
 
 Key Takeaways
 The biggest takeaway from this homework was how useful visualizations can be for understanding data. Simply looking at numbers in a table can make it hard to see patterns, but graphs and maps help make the information clearer. For example, My ggplot visualizations helped show which areas had the highest food insecurity, making the data more meaningful. This assignment showed how important data visualization is in turning raw data into useful insights.
+
+See document 3-code.pdf
 
 # 4. Use programming languages such as Rand Python to support the generation of actionable insight
 
@@ -106,6 +112,8 @@ Focus on Unresolved Cases: Another useful step would be to investigate the categ
 
 Integrate Arrest and Location Data: Combining arrest data with geographic data could help us identify areas where crimes are more likely to go unresolved. By understanding these patterns, police can better allocate resources to areas with higher rates of unresolved or unnoticed crimes. Additionally, this data could be used for predictive policing, where patterns from historical data are used to predict where future crimes may occur, allowing law enforcement to proactively respond.
 
+See document 4-code.ipynb
+
 # 5. Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads
 
 For our final presentation in ACC 652 (Accounting Analytics), my group chose Vail Resorts as the company to analyze. We began by providing a brief overview of the company and explaining its global presence to give context for those unfamiliar with Vail Resorts. Next, we identified three key questions we wanted to answer about the company, with my focus being on how Vail Resorts generates revenue from different business areas, such as lift tickets, lodging, retail, and dining, a concept known as "revenue diversification."
@@ -117,6 +125,8 @@ To present these findings, I created four clear and effective visuals. The first
 I made sure to keep the visuals simple and focused, ensuring that the analysis could be easily followed. By focusing on key trends, like growth in specific revenue segments, I highlighted insights that were critical for understanding the company’s financial health and how different business areas contributed to overall performance. This allowed for a focused, data-driven discussion on how revenue diversification impacts the company’s stability and future growth.
 
 This is important because looking at how Vail Resorts makes money from different areas helps us understand how stable the company is and how it can grow. By seeing which parts of the business, like lift tickets, lodging, retail, and dining, are making the most money, we can figure out where the company is doing well and where it might be struggling. This kind of analysis helps show if the company relies too much on one area and if that could cause problems in the future. For those making decisions at the company, this information is helpful for planning, making smart investments, and making sure the business stays strong even if some areas face challenges. Understanding which parts of the business are growing helps the company focus on what’s working and improve what’s not.
+
+See document 5-code.pptx
 
 # 6. Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy)
 
@@ -150,3 +160,4 @@ Improvement: The model needs to be improved to avoid bias and make salary predic
 
 This analysis highlights the need to include fairness, transparency, and bias reduction in building and assessing predictive models, so we can create systems that are both ethical and trustworthy. 
 
+See document 6-code.ipynb
