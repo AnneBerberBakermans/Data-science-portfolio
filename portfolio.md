@@ -83,3 +83,31 @@ A heat map where each state’s color represented its level of food insecurity.
 Key Takeaways
 The biggest takeaway from this homework was how useful visualizations can be for understanding data. Simply looking at numbers in a table can make it hard to see patterns, but graphs and maps help make the information clearer. For example, My ggplot visualizations helped show which areas had the highest food insecurity, making the data more meaningful. This assignment showed how important data visualization is in turning raw data into useful insights.
 
+• Use programming languages such as Rand Python to support the generation of
+actionable insight
+
+For Homework 4 in the Scripting for Data Analytics course, I worked with a large dataset containing crime reports from Chicago between 2018 and 2021. The task required me to process and analyze the data and extract two meaningful insights from it.
+
+For my first analysis, I focused on identifying which types of crimes occurred most frequently. After processing the data, I found that theft was the most common crime, with a total of 209,507 theft incidents reported. I then wanted to see if there was a year with more thefts than others, so I examined the data over the years and found that 2018 had the highest number of thefts. I also looked at which police beat had the most thefts, and it turned out that Beat 1834 had the highest concentration. This showed that this area was more prone to thefts than others in the city. Additionally, I explored the location descriptions of the thefts and discovered that most of them took place on streets, suggesting that street-level crimes were more frequent. Another important finding was that most of these thefts involved amounts of $500 or less, meaning lower-value thefts were more common than larger, more serious ones.
+
+After analyzing these findings, I decided to dive deeper into the overall crime trends between 2018 and 2021. I looked at the total number of reported crimes each year and found that it dropped from 268,324 in 2018 to 207,863 in 2021, showing a clear decrease in the number of crimes over time. I also examined the number of arrests made each year, and found that the total number of arrests dropped from 53,757 in 2018 to 25,839 in 2021. While this decrease in arrests seemed to correspond with the decline in reported crimes, I noticed something interesting. The arrest rate, which is the percentage of crimes that led to arrests, improved slightly from 20.03% in 2018 to 21.50% in 2019, but then it sharply declined to 12.43% by 2021, even though fewer crimes were reported.
+
+This sharp drop in the arrest rate might be linked to the COVID-19 pandemic, which affected police operations and made it harder for them to make arrests. However, without more detailed data on how the pandemic impacted crime and law enforcement in Chicago, it’s difficult to draw any definitive conclusions.
+
+From my analysis, several key insights emerged:
+
+No Arrests: A significant portion of the crimes each year did not lead to arrests. This suggests that there may be gaps in the law enforcement process, such as lack of evidence, lower priority given to certain crimes, or issues in tracking and apprehending suspects.
+
+Missing Location Data: Some of the crimes in the dataset were missing location information. This makes it harder to map crime hotspots and understand the geographic trends of criminal activity, especially at the neighborhood level.
+
+Unresolved Crimes: There was a smaller subset of crimes that lacked both arrest records and location data. These cases are particularly concerning because they represent significant gaps in both resolving the crime and tracking where it occurred, which is important for understanding crime patterns.
+
+To address these issues and improve the quality of crime data, I suggest the following measures:
+
+Improved Data Collection: A key solution would be to enhance the way location data is collected. Ensuring that every crime is properly geo-coded and that location information is recorded accurately will allow for more detailed crime mapping, making it easier to identify high-crime areas and trends over time.
+
+Focus on Unresolved Cases: Another useful step would be to investigate the categories of crimes that were not followed by arrests, especially those that were missing both arrest and location data. Understanding why these cases remain unresolved could help law enforcement agencies prioritize certain types of crimes or improve their investigative processes.
+
+Integrate Arrest and Location Data: Combining arrest data with geographic data could help us identify areas where crimes are more likely to go unresolved. By understanding these patterns, police can better allocate resources to areas with higher rates of unresolved or unnoticed crimes. Additionally, this data could be used for predictive policing, where patterns from historical data are used to predict where future crimes may occur, allowing law enforcement to proactively respond.
+
+
