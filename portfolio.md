@@ -110,4 +110,16 @@ Focus on Unresolved Cases: Another useful step would be to investigate the categ
 
 Integrate Arrest and Location Data: Combining arrest data with geographic data could help us identify areas where crimes are more likely to go unresolved. By understanding these patterns, police can better allocate resources to areas with higher rates of unresolved or unnoticed crimes. Additionally, this data could be used for predictive policing, where patterns from historical data are used to predict where future crimes may occur, allowing law enforcement to proactively respond.
 
+• Communicate insights gained via visualization and analytics to a broad range of
+audiences (including project sponsors and technical team leads
+
+For our final presentation in ACC 652 (Accounting Analytics), my group chose Vail Resorts as the company to analyze. We began by providing a brief overview of the company and explaining its global presence to give context for those unfamiliar with Vail Resorts. Next, we identified three key questions we wanted to answer about the company, with my focus being on how Vail Resorts generates revenue from different business areas, such as lift tickets, lodging, retail, and dining, a concept known as "revenue diversification."
+
+Using data from Vail Resorts' 10-K filings (detailed financial reports filed with the SEC), we analyzed how much revenue the company generates from each area and whether any segments were growing faster than others. This analysis was important for understanding how shifts in one revenue stream could impact the company’s overall financial stability.
+
+To present these findings, I created four clear and effective visuals. The first visual was a bar chart that compared the revenue from mountain activities (like lift tickets) and lodging. The second and third visuals were line charts that tracked these revenue streams over time, with color differentiation to make the trends easier to follow.
+
+I made sure to keep the visuals simple and focused, ensuring that the analysis could be easily followed. By focusing on key trends, like growth in specific revenue segments, I highlighted insights that were critical for understanding the company’s financial health and how different business areas contributed to overall performance. This allowed for a focused, data-driven discussion on how revenue diversification impacts the company’s stability and future growth.
+
+This is important because looking at how Vail Resorts makes money from different areas helps us understand how stable the company is and how it can grow. By seeing which parts of the business, like lift tickets, lodging, retail, and dining, are making the most money, we can figure out where the company is doing well and where it might be struggling. This kind of analysis helps show if the company relies too much on one area and if that could cause problems in the future. For those making decisions at the company, this information is helpful for planning, making smart investments, and making sure the business stays strong even if some areas face challenges. Understanding which parts of the business are growing helps the company focus on what’s working and improve what’s not.
 
