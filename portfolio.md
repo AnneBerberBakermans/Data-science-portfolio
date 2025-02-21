@@ -1,17 +1,17 @@
-• Collect, store, and access data by identifying and leveraging applicable technologies
-• Create actionable insight across a range of contexts (e.g. societal, business, political),
+1. Collect, store, and access data by identifying and leveraging applicable technologies
+2. Create actionable insight across a range of contexts (e.g. societal, business, political),
 using data and the full data science life cycle
-• Apply visualization and predictive models to help generate actionable insight
-• Use programming languages such as Rand Python to support the generation of
+3.  Apply visualization and predictive models to help generate actionable insight
+4.  Use programming languages such as Rand Python to support the generation of
 actionable insight
-• Communicate insights gained via visualization and analytics to a broad range of
+5.  Communicate insights gained via visualization and analytics to a broad range of
 audiences (including project sponsors and technical team leads
-• Apply ethics in the development, use and evaluation of data and predictive models (e.g.,
+6.  Apply ethics in the development, use and evaluation of data and predictive models (e.g.,
 fairness, bias, transparency, privacy)
 
 
 
-# Collect, store, and access data by identifying and leveraging applicable technologies
+# 1. Collect, store, and access data by identifying and leveraging applicable technologies
 
 Using Tools to Collect and Organize Data: Citi Bike and Weather Analysis
 For our final project in IST 652: Scripting for Data Analytics, we analyzed Citi Bike rentals in New York City to find patterns in how people use the bike-sharing system. We focused on July, August, and September because these months had the highest number of rides. Since the data for each month was stored in a separate file, we had to gather, clean, and combine them before we could start analyzing. Each month had around 4–5 million rows, so organizing the data properly was very important to avoid issues when working with such large files.
@@ -36,7 +36,7 @@ We used Pandas for data processing and Datetime functions to organize time-based
 Create actionable insight across a range of contexts (e.g. societal, business, political),
 using data and the full data science life cycle
 
-# Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle
+# 2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle
 
 Using Data Science to Understand Income Patterns and Bias
 One of the classes that really focused on gaining insights across different contexts was Responsible AI (IST644). In one of our first assignments, we worked with the Adult Income dataset from the UCI Machine Learning Repository. This dataset looks at whether a person earns more than $50K per year, based on factors like education, occupation, and marital status. Since income prediction relies on demographic information, it raises important questions about fairness and bias in AI models.
@@ -56,7 +56,7 @@ This assignment really showed how data science can be applied to different areas
 
 The biggest takeaway was that data science isn’t just about making predictions.It’s about making fair and meaningful decisions. This assignment made it clear that when working with real-world data, we have to think about how our models impact people and ensure that our insights are responsible and useful across different contexts.
 
-# Apply visualization and predictive models to help generate actionable insight
+# 3.Apply visualization and predictive models to help generate actionable insight
 
 Using Visuals and Models to Understand Food Insecurity
 For our Introduction to Data Science class, I worked on a homework assignment analyzing food scarcity data. Some communities in the U.S. struggle to get healthy and affordable food because they live far from supermarkets or grocery stores. This limited access can make it difficult for people to maintain a balanced diet. There are many ways to measure food store access and define areas that lack these resources. In our assignment, we focused on one specific measure—how far people had to travel to reach a supermarket.
@@ -80,7 +80,7 @@ A heat map where each state’s color represented its level of food insecurity.
 Key Takeaways
 The biggest takeaway from this homework was how useful visualizations can be for understanding data. Simply looking at numbers in a table can make it hard to see patterns, but graphs and maps help make the information clearer. For example, My ggplot visualizations helped show which areas had the highest food insecurity, making the data more meaningful. This assignment showed how important data visualization is in turning raw data into useful insights.
 
-# Use programming languages such as Rand Python to support the generation of actionable insight
+# 4. Use programming languages such as Rand Python to support the generation of actionable insight
 
 For Homework 4 in the Scripting for Data Analytics course, I worked with a large dataset containing crime reports from Chicago between 2018 and 2021. The task required me to process and analyze the data and extract two meaningful insights from it.
 
@@ -106,7 +106,7 @@ Focus on Unresolved Cases: Another useful step would be to investigate the categ
 
 Integrate Arrest and Location Data: Combining arrest data with geographic data could help us identify areas where crimes are more likely to go unresolved. By understanding these patterns, police can better allocate resources to areas with higher rates of unresolved or unnoticed crimes. Additionally, this data could be used for predictive policing, where patterns from historical data are used to predict where future crimes may occur, allowing law enforcement to proactively respond.
 
-# Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads
+# 5. Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads
 
 For our final presentation in ACC 652 (Accounting Analytics), my group chose Vail Resorts as the company to analyze. We began by providing a brief overview of the company and explaining its global presence to give context for those unfamiliar with Vail Resorts. Next, we identified three key questions we wanted to answer about the company, with my focus being on how Vail Resorts generates revenue from different business areas, such as lift tickets, lodging, retail, and dining, a concept known as "revenue diversification."
 
@@ -118,7 +118,7 @@ I made sure to keep the visuals simple and focused, ensuring that the analysis c
 
 This is important because looking at how Vail Resorts makes money from different areas helps us understand how stable the company is and how it can grow. By seeing which parts of the business, like lift tickets, lodging, retail, and dining, are making the most money, we can figure out where the company is doing well and where it might be struggling. This kind of analysis helps show if the company relies too much on one area and if that could cause problems in the future. For those making decisions at the company, this information is helpful for planning, making smart investments, and making sure the business stays strong even if some areas face challenges. Understanding which parts of the business are growing helps the company focus on what’s working and improve what’s not.
 
-# Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy)
+# 6. Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy)
 
 In our Responsible AI class (IST 644), we worked with a dataset that focused on data science STEM salaries. We used two main methods, LIME and SHAP, to understand how the model makes predictions and to check if it treats everyone fairly.
 
