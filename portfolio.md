@@ -23,6 +23,7 @@ fairness, bias, transparency, privacy)
 8. Strenght and Weaknesses
 9. Life-long learning
 
+Not all the assigments are in ipynb format. The assignemnts that are in pdf, docx or pptx format can be downloaded as a raw file. 
 
 # 1. Collect, store, and access data by identifying and leveraging applicable technologies
 
