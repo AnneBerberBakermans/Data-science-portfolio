@@ -1,8 +1,11 @@
 # Overview 
 
 Name: Anne Berber Bakermans
+
 SUID: 5898659222
+
 email: abbakerm@syr.edu
+
 Resume; See file Resume.Ber-Bakermans.docx
 
 # Table of content 
