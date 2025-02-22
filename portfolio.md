@@ -1,13 +1,9 @@
-1. Collect, store, and access data by identifying and leveraging applicable technologies
-2. Create actionable insight across a range of contexts (e.g. societal, business, political),
-using data and the full data science life cycle
-3.  Apply visualization and predictive models to help generate actionable insight
-4.  Use programming languages such as Rand Python to support the generation of
-actionable insight
-5.  Communicate insights gained via visualization and analytics to a broad range of
-audiences (including project sponsors and technical team leads
-6.  Apply ethics in the development, use and evaluation of data and predictive models (e.g.,
-fairness, bias, transparency, privacy)
+# Overview 
+
+Name: Anne Berber Bakermans
+SUID: 5898659222
+email: abbakerm@syr.edu
+Resume; See file resume 
 
 
 
