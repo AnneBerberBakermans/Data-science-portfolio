@@ -191,7 +191,7 @@ Another weakness I faced was understanding how to handle big data science projec
 Looking back, the program pushed me to improve my technical skills and my ability to manage projects. It also helped me become better at balancing my time between school and athletics. I’ve learned that while coding and problem-solving are key, being organized and having a clear plan are just as important.
 
 # 9. Life-long learning
-I’ve learned that learning never really ends. In the world of data science, there’s always something new to discover—whether it’s a new tool, technique, or idea. I’ve realized that staying curious and always striving to learn more is key to being successful.
+I’ve learned that learning never really ends. In the world of data science, there’s always something new to discover. Whether it’s a new tool, technique, or idea. I’ve realized that staying curious and always striving to learn more is key to being successful.
 Being a student-athlete also taught me the value of life-long learning. Sports showed me that progress comes from putting in the effort and listening to feedback. Whether it’s improving in sports or my studies, I’ve learned that small daily improvements really add up.
 
 In data science, I see the same principle. The more I engage in projects or try new things, the more I expand my skills. I’ve also come to appreciate how valuable it is to learn from others—whether it’s teammates, classmates, or mentors. I’m excited to continue learning and growing, and I look forward to applying everything I’ve learned to real-world situations.
