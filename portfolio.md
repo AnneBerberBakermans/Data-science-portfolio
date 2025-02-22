@@ -37,7 +37,7 @@ Since we were working with large datasets, we needed to use different tools and 
 - Standardizing column names so they were easier to work with
 - Converting coordinates into numerical values
 - Filtering out negative trip durations, which were mistakes in the data
-- 
+
 For the weather data, we removed unnecessary columns and kept only useful details like temperature, humidity, and wind speed. We also added extra information, such as the week number and the week-of-the-month, to help with the analysis. Finally, we merged the Citi Bike and weather datasets by matching the time and date, creating a well-structured dataset that linked bike trips with weather conditions.
 
 This project showed us how important it is to collect and organize data before starting an analysis. When we first began working with the files, our laptops kept freezing because of how large the datasets were. Without the right tools, working with big data can become overwhelming and frustrating.
