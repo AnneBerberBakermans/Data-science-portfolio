@@ -45,3 +45,7 @@ Download raw file and open in PowerPoint
 IST 644: Responsible AI
 
 Open in Github or in programming language that can read .ipynb file
+
+# Resume 
+
+Download raw file
