@@ -1,6 +1,9 @@
 # 1. Collect, store, and access data by identifying and leveraging applicable technologies
+
 1-code.ipynb 
+
 IST 652: Scripting for Data Analytics
+
 Open in Github or in programming language that can read .ipynb file
 
 # 2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle
